@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechFix Pro | Manutenção de Equipamentos de Informática</title>
+  <meta name="description" content="Serviços especializados em manutenção e suporte técnico para equipamentos de informática. Atendimento ágil, profissional e garantido." />
+  <meta name="keywords" content="manutenção de computadores, suporte técnico, informática, TechFix Pro, reparo de notebooks" />
+  <meta property="og:title" content="TechFix Pro | Manutenção de Informática" />
+  <meta property="og:description" content="Soluções rápidas e eficazes para seus equipamentos de informática." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container nav-inner">
+
+      <a href="#hero" class="nav-logo" id="logo">
+        <div class="logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6v2H8v2h8v-2h-2v-2h6a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 12H4V6h16v10z"/>
+          </svg>
+        </div>
+        TechFix<span style="color:var(--clr-primary)">Pro</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#consultoria">Consultoria</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#processo">Como Funciona</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contato" class="btn btn-primary" id="nav-cta-btn">Solicitar Orçamento</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" role="dialog" aria-label="Menu mobile">
+    <a href="#servicos">Serviços</a>
+    <a href="#consultoria">Consultoria</a>
+    <a href="#diferenciais">Diferenciais</a>
+    <a href="#processo">Como Funciona</a>
+    <a href="#contato">Contato</a>
+    <a href="#contato" class="btn btn-primary" style="margin-top:16px">Solicitar Orçamento</a>
+  </div>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="hero" aria-label="Seção principal">
+    <div class="hero-bg" role="img" aria-label="Fundo decorativo de circuitos"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="tag" aria-label="Slogan">
+          <span>⚡</span> Especialistas em Tecnologia
+        </div>
+
+        <h1>
+          Seu equipamento<br/>
+          <span>de volta ao máximo</span><br/>
+          desempenho.
+        </h1>
+
+        <p>
+          Manutenção profissional de computadores, notebooks, impressoras e servidores.
+          Diagnóstico rápido, peças originais e garantia em todos os serviços.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-primary" id="hero-cta-btn">
+            Solicitar Orçamento Grátis
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/>
+            </svg>
+          </a>
+          <a href="#servicos" class="btn btn-outline" id="hero-services-btn">Ver Serviços</a>
+        </div>
+
+        <div class="hero-stats" role="list" aria-label="Números da empresa">
+          <div class="stat-item" role="listitem">
+            <strong>
+              <span data-counter="1200" data-suffix="+">0+</span>
+            </strong>
+            <span>Equipamentos Reparados</span>
+          </div>
+          <div class="stat-item" role="listitem">
+            <strong>
+              <span data-counter="98" data-suffix="%">0%</span>
+            </strong>
+            <span>Clientes Satisfeitos</span>
+          </div>
+          <div class="stat-item" role="listitem">
+            <strong>
+              <span data-counter="8" data-suffix=" anos">0</span>
+            </strong>
+            <span>De Experiência</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section id="servicos" aria-labelledby="servicos-title">
+    <div class="container">
+      <header class="section-header reveal">
+        <div class="tag">O que oferecemos</div>
+        <h2 class="section-title" id="servicos-title">Serviços especializados<br/>para cada necessidade</h2>
+        <p class="section-subtitle">
+          Do diagnóstico à entrega, cobrimos todas as etapas da manutenção com precisão técnica e agilidade.
+        </p>
+      </header>
+
+      <div class="services-grid">
+
+        <article class="service-card reveal reveal-delay-1" id="service-computers">
+          <div class="service-icon" aria-hidden="true">🖥️</div>
+          <h3>Computadores & Desktops</h3>
+          <p>Limpeza interna, troca de componentes, upgrade de hardware e formatação com reinstalação completa do sistema operacional.</p>
+        </article>
+
+        <article class="service-card reveal reveal-delay-2" id="service-notebooks">
+          <div class="service-icon" aria-hidden="true">💻</div>
+          <h3>Notebooks & Ultrabooks</h3>
+          <p>Reparo de telas, teclados, baterias, coolers e placas-mãe. Diagnóstico completo sem custo adicional.</p>
+        </article>
+
+        <article class="service-card reveal reveal-delay-3" id="service-printers">
+          <div class="service-icon" aria-hidden="true">🖨️</div>
+          <h3>Impressoras & Multifuncionais</h3>
+          <p>Manutenção preventiva e corretiva, troca de peças desgastadas, calibração e limpeza de cabeçotes.</p>
+        </article>
+
+        <article class="service-card reveal reveal-delay-4" id="service-network">
+          <div class="service-icon" aria-hidden="true">🔌</div>
+          <h3>Redes & Infraestrutura</h3>
+          <p>Instalação e configuração de redes cabeadas e Wi-Fi, configuração de roteadores e switches corporativos.</p>
+        </article>
+
+        <article class="service-card reveal reveal-delay-1" id="service-recovery">
+          <div class="service-icon" aria-hidden="true">💾</div>
+          <h3>Recuperação de Dados</h3>
+          <p>Recuperação de arquivos de HDs, SSDs e pendrives danificados. Alto índice de sucesso mesmo em casos críticos.</p>
+        </article>
+
+        <article class="service-card reveal reveal-delay-2" id="service-support">
+          <div class="service-icon" aria-hidden="true">🛡️</div>
+          <h3>Suporte Técnico Remoto</h3>
+          <p>Atendimento imediato via acesso remoto seguro para resolver problemas de software, vírus e configurações.</p>
+        </article>
+
+        <article class="service-card service-card--highlight reveal reveal-delay-3" id="service-consultoria">
+          <div class="service-icon service-icon--accent" aria-hidden="true">🔍</div>
+          <div class="service-badge">Novo Serviço</div>
+          <h3>Consultoria para Compra de Usados</h3>
+          <p>Avaliamos o equipamento antes da sua compra: análise técnica completa, manutenção preventiva inclusa e garantia de funcionamento após a aquisição.</p>
+          <a href="#consultoria" class="service-card-link">Saiba mais →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONSULTORIA HIGHLIGHT
+  ============================================================ -->
+  <section id="consultoria" aria-labelledby="consultoria-title">
+    <div class="container">
+      <header class="section-header reveal">
+        <div class="tag" style="background:rgba(123,97,255,0.1);border-color:rgba(123,97,255,0.3);color:var(--clr-accent);">🔍 Serviço Exclusivo</div>
+        <h2 class="section-title" id="consultoria-title">
+          Compre equipamentos usados<br/>
+          <span style="background:linear-gradient(90deg,var(--clr-accent),var(--clr-primary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">com total segurança</span>
+        </h2>
+        <p class="section-subtitle">
+          Antes de fechar negócio, nossa equipe inspeciona o equipamento, realiza a manutenção preventiva e emite uma garantia de funcionamento. Você compra sem surpresas.
+        </p>
+      </header>
+
+      <div class="consultoria-grid">
+
+        <div class="consultoria-card reveal reveal-delay-1" id="consultoria-analise">
+          <div class="consultoria-icon" aria-hidden="true">
+            <span>🔬</span>
+          </div>
+          <h3>Análise Técnica Completa</h3>
+          <p>Inspecionamos todos os componentes: placa-mãe, processador, memória RAM, armazenamento, bateria, cooler e periféricos. Um laudo técnico detalhado é emitido com o resultado.</p>
+          <ul class="consultoria-list">
+            <li>✓ Teste de stress de hardware</li>
+            <li>✓ Verificação de setores defeituosos no HD/SSD</li>
+            <li>✓ Análise de temperatura e desempenho</li>
+            <li>✓ Laudo técnico por escrito</li>
+          </ul>
+        </div>
+
+        <div class="consultoria-card consultoria-card--center reveal reveal-delay-2" id="consultoria-manutencao">
+          <div class="consultoria-icon" aria-hidden="true">
+            <span>🔧</span>
+          </div>
+          <h3>Manutenção Preventiva Inclusa</h3>
+          <p>Após a análise, realizamos a limpeza interna completa, troca de pasta térmica, atualização de drivers e do sistema operacional, deixando o equipamento como novo.</p>
+          <ul class="consultoria-list">
+            <li>✓ Limpeza interna e cooler</li>
+            <li>✓ Troca de pasta térmica</li>
+            <li>✓ Formatação e instalação de SO</li>
+            <li>✓ Drivers e atualizações em dia</li>
+          </ul>
+        </div>
+
+        <div class="consultoria-card reveal reveal-delay-3" id="consultoria-garantia">
+          <div class="consultoria-icon" aria-hidden="true">
+            <span>🏅</span>
+          </div>
+          <h3>Garantia de Manutenção</h3>
+          <p>Emitimos um certificado de garantia para o equipamento avaliado. Se apresentar defeito nos componentes analisados dentro do prazo, cobrimos o conserto sem custo adicional.</p>
+          <ul class="consultoria-list">
+            <li>✓ Garantia de 90 dias</li>
+            <li>✓ Certificado digital de procedência</li>
+            <li>✓ Suporte prioritário incluso</li>
+            <li>✓ Válido para compras de terceiros</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="consultoria-cta reveal">
+        <p>Vai comprar um computador ou notebook usado? <strong>Fale com a gente antes!</strong></p>
+        <a href="#contato" class="btn btn-primary" id="consultoria-cta-btn">
+          Agendar Consultoria
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DIFFERENTIALS
+  ============================================================ -->
+  <section id="diferenciais" aria-labelledby="diff-title">
+    <div class="container">
+      <div class="diff-layout">
+
+        <div class="diff-text">
+          <div class="tag reveal">Por que nos escolher</div>
+          <h2 class="section-title reveal reveal-delay-1" id="diff-title">
+            Qualidade e agilidade<br/>que fazem diferença
+          </h2>
+
+          <div class="diff-list">
+
+            <div class="diff-item reveal reveal-delay-1">
+              <div class="diff-num" aria-hidden="true">01</div>
+              <div>
+                <h4>Diagnóstico Gratuito</h4>
+                <p>Avaliamos seu equipamento sem cobrar nada. Você recebe o orçamento e decide se quer prosseguir.</p>
+              </div>
+            </div>
+
+            <div class="diff-item reveal reveal-delay-2">
+              <div class="diff-num" aria-hidden="true">02</div>
+              <div>
+                <h4>Entrega no Prazo</h4>
+                <p>Cumprimos os prazos acordados. Em casos urgentes, oferecemos atendimento prioritário em 24h.</p>
+              </div>
+            </div>
+
+            <div class="diff-item reveal reveal-delay-3">
+              <div class="diff-num" aria-hidden="true">03</div>
+              <div>
+                <h4>Garantia de 90 Dias</h4>
+                <p>Todos os nossos serviços têm garantia. Se o problema voltar, resolvemos sem custo adicional.</p>
+              </div>
+            </div>
+
+            <div class="diff-item reveal reveal-delay-4">
+              <div class="diff-num" aria-hidden="true">04</div>
+              <div>
+                <h4>Peças Originais e Homologadas</h4>
+                <p>Utilizamos apenas componentes de qualidade com procedência garantida e nota fiscal.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="diff-visual reveal reveal-delay-2">
+          <div class="glass-card">
+            <div class="card-label">Equipamentos atendidos</div>
+            <div class="big-number">
+              <span data-counter="1200" data-suffix="+">1200+</span>
+            </div>
+            <div class="big-label">Reparos concluídos com sucesso</div>
+
+            <div class="mini-cards">
+              <div class="mini-card">
+                <strong><span data-counter="98" data-suffix="%">98%</span></strong>
+                <span>Satisfação</span>
+              </div>
+              <div class="mini-card">
+                <strong><span data-counter="24" data-suffix="h">24h</span></strong>
+                <span>Atendimento</span>
+              </div>
+              <div class="mini-card">
+                <strong><span data-counter="90" data-suffix=" dias">90 dias</span></strong>
+                <span>Garantia</span>
+              </div>
+              <div class="mini-card">
+                <strong><span data-counter="8" data-suffix=" anos">8 anos</span></strong>
+                <span>Experiência</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROCESS
+  ============================================================ -->
+  <section id="processo" aria-labelledby="processo-title">
+    <div class="container">
+      <header class="section-header reveal">
+        <div class="tag">Simples e transparente</div>
+        <h2 class="section-title" id="processo-title">Como funciona o<br/>nosso atendimento</h2>
+        <p class="section-subtitle">
+          Um processo claro e eficiente, do primeiro contato até a entrega do seu equipamento.
+        </p>
+      </header>
+
+      <div class="process-steps" role="list">
+
+        <div class="step reveal reveal-delay-1" id="step-contact" role="listitem">
+          <div class="step-num" aria-hidden="true">1</div>
+          <h3>Contato Inicial</h3>
+          <p>Você nos chama pelo WhatsApp, telefone ou preenchendo o formulário. Respondemos em minutos.</p>
+        </div>
+
+        <div class="step reveal reveal-delay-2" id="step-diagnosis" role="listitem">
+          <div class="step-num" aria-hidden="true">2</div>
+          <h3>Diagnóstico Gratuito</h3>
+          <p>Avaliamos o problema e identificamos a causa raiz sem nenhum custo para você.</p>
+        </div>
+
+        <div class="step reveal reveal-delay-3" id="step-budget" role="listitem">
+          <div class="step-num" aria-hidden="true">3</div>
+          <h3>Aprovação do Orçamento</h3>
+          <p>Enviamos um orçamento detalhado e transparente. Você aprova antes de qualquer intervenção.</p>
+        </div>
+
+        <div class="step reveal reveal-delay-4" id="step-repair" role="listitem">
+          <div class="step-num" aria-hidden="true">4</div>
+          <h3>Reparo e Entrega</h3>
+          <p>Executamos o serviço com qualidade e entregamos no prazo combinado, com garantia.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section id="contato" aria-labelledby="contato-title">
+    <div class="container">
+      <div class="contact-layout">
+
+        <div class="contact-info">
+          <div class="tag reveal">Fale conosco</div>
+          <h2 class="section-title reveal reveal-delay-1" id="contato-title">Pronto para resolver<br/>seu problema?</h2>
+          <p class="section-subtitle reveal reveal-delay-2">
+            Entre em contato agora e receba um diagnóstico gratuito. Nossa equipe responde em até 2 horas.
+          </p>
+
+          <div class="contact-details reveal reveal-delay-3" role="list">
+            <div class="contact-item" id="contact-phone" role="listitem">
+              <div class="ci-icon" aria-hidden="true">📞</div>
+              <span>(11) 99999-0000</span>
+            </div>
+            <div class="contact-item" id="contact-whatsapp" role="listitem">
+              <div class="ci-icon" aria-hidden="true">💬</div>
+              <span>WhatsApp: (11) 99999-0000</span>
+            </div>
+            <div class="contact-item" id="contact-email" role="listitem">
+              <div class="ci-icon" aria-hidden="true">✉️</div>
+              <span>contato@techfixpro.com.br</span>
+            </div>
+            <div class="contact-item" id="contact-hours" role="listitem">
+              <div class="ci-icon" aria-hidden="true">🕐</div>
+              <span>Seg–Sex: 08h–18h | Sáb: 09h–13h</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form reveal reveal-delay-2">
+          <form id="contact-form" novalidate aria-label="Formulário de contato">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nome completo *</label>
+                <input type="text" id="name" name="name" placeholder="João Silva" autocomplete="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" placeholder="joao@email.com" autocomplete="email" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Telefone / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="(11) 99999-0000" autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="service">Tipo de serviço</label>
+                <select id="service" name="service">
+                  <option value="">Selecione...</option>
+                  <option value="computador">Computador / Desktop</option>
+                  <option value="notebook">Notebook</option>
+                  <option value="impressora">Impressora</option>
+                  <option value="rede">Rede / Infraestrutura</option>
+                  <option value="dados">Recuperação de Dados</option>
+                  <option value="remoto">Suporte Remoto</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Descreva o problema *</label>
+              <textarea id="message" name="message" placeholder="Descreva o que está acontecendo com seu equipamento..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit" id="submit-btn">
+              Enviar Mensagem
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+              </svg>
+            </button>
+          </form>
+
+          <div class="success-msg" role="alert" aria-live="polite"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">
+        &copy; <span id="year"></span> TechFix Pro. Todos os direitos reservados.
+      </p>
+      <ul class="footer-links" role="list">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#processo">Como Funciona</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
